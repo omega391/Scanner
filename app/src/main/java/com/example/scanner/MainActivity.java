@@ -94,9 +94,9 @@ public class MainActivity extends AppCompatActivity {
         nxt.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick( View v) {
-               builder.setMessage("R.string.dialog_message")
+               builder.setMessage("Is it Correctly Scanned?")
                        .setCancelable(true)
-                       .setTitle("Test")
+                       .setTitle("Confirmation")
                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                            @Override
                            public void onClick(DialogInterface dialog, int which) {
